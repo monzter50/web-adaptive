@@ -9,6 +9,7 @@
 @import "config/utilities";
 
 // Base and elements (generic)
+@import "base/normalize";
 @import "base/base";
 
 // LAYOUT
@@ -18,9 +19,10 @@
   // Son los elementos de UI de tu interfaz, como botones, tablas, menus, etc.
   // Crea los archivos adicionales que necesites (uno por componente)
  @import "components/buttons";
-
+ @import "components/menu";
+ @import "components/swiper";
 // Theme (colors and fonts)
-// @import "theme/typography";
+ @import "theme/theme";
 
 // Utilities (hacks)
   // Todos los hacks que hayas necesitado para solucionar conflictos

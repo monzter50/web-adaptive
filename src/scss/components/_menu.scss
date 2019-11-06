@@ -1,0 +1,26 @@
+.navbar{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    &__collapse{
+        display: grid;
+        grid-template-columns: repeat(4,1fr);
+    }
+    &__item{
+        background: var(--first-color);
+         &.active{
+              background: var(--second-color);
+              .nav__link{
+                  color: var(--white);
+              }
+         }
+    }
+
+    &__link {
+        display: block;
+        padding: 0.5rem 1rem;
+        text-decoration: none;
+        color: var(--white);
+        text-align: center;
+        
+    }
+}

@@ -1,0 +1,9 @@
+.theme{
+    &--primary{
+        background: var(--first-color);
+        color: white;
+        a{
+            color: white;
+        }
+    }
+}
