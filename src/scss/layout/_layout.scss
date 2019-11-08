@@ -11,36 +11,9 @@
         'main'
         'footer';
     }
-    
     min-height: 100vh;
 }
-.footer{
-    grid-area: footer;
-    height: 100%;
-    margin-top: auto;
-    &__link{
-        text-decoration: none;
-        color: #000;
-        padding:0 1em;
 
-        border-right: 1px solid #000;
-        &:last-child{
-            border-right: none;
-        }
-    }
-}
-
-
-.cards{
-    display: grid;
-    grid-gap: .8em;
-     @include phone{
-        grid-template-columns: 1fr;
-
-     }
-    grid-template-columns: repeat(2,1fr);
-
-}
 .layout{
     &-add{
         display: grid;
@@ -51,7 +24,6 @@
         display: flex;
         @include phone{
             flex-direction: column;
-
         }
         flex-direction: vertical;
         justify-content: center;
@@ -61,7 +33,6 @@
 .parks{
     &-grids{
         padding: 0;
-        margin: 0;
         list-style: none;
         display: flex;
         justify-content: space-around;
@@ -75,22 +46,34 @@
         color: white;
         font-weight: bold;
         text-align: center;
+        margin-top: 1rem;
         &--big{
             width: 100%;
         }
     }
-    
 }
-.services{
-    margin: .5em;
-    @include desktop{
-        margin: 2em ;
-    }
-}
-@include desktop{
-    .container-lg {
-        width: 90%;
-        // max-width: 1200px;
-        margin: 0 auto;
+
+.list{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    .phone-list{
+        padding: 1rem;
+        flex:1 0;
+        display: flex;
+        align-items: center;
+        background: var(--first-acent);
+        border-radius: .8rem;
+        margin:.8rem .3rem;
+        line-height: 2;
+        color: white;
+        font-weight: bold;
+        text-align: center;
+        &--big{
+            width: 100%;
+        }
     }
 }

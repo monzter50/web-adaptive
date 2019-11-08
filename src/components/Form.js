@@ -33,7 +33,7 @@ const Form = () => {
             <button className="btn btn--default">Info</button>
           </div>
           <div className='layout-add'>
-            <button className="btn btn--default">Agregar <FontAwesomeIcon icon="utensils" /> alimentos y bebidas</button>
+            <button className="btn btn--default">Agregar <FontAwesomeIcon icon="utensils" /> alimentos<br /> y bebidas</button>
             <button className="btn btn--default">Info</button>
           </div>
           <div className='layout-add'>

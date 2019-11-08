@@ -6,8 +6,9 @@ import Tab from "../components/Tab";
 import CardSwipe from "../components/CardSwipe";
 import Info from "../components/Info";
 import Footer from "../components/Footer";
+import Menu from "../components/Menu";
 import { library } from "@fortawesome/fontawesome-svg-core";
-import { faGooglePlay,faApple } from '@fortawesome/free-brands-svg-icons';
+import { faGooglePlay, faApple, faFacebook, faTwitter, faInstagram, faYoutube } from "@fortawesome/free-brands-svg-icons";
 import {
   faUser,
   faPhone,
@@ -18,7 +19,12 @@ import {
   faCamera,
   faEnvelopeOpen,
   faMobileAlt,
-  
+  faHeart,
+  faHome,
+  faMap,
+  faStar,
+  faHandHoldingUsd,
+  faPlaceOfWorship
 } from "@fortawesome/free-solid-svg-icons";
 
 library.add(
@@ -32,7 +38,17 @@ library.add(
   faEnvelopeOpen,
   faMobileAlt,
   faGooglePlay,
-  faApple
+  faApple,
+  faFacebook,
+  faTwitter,
+  faInstagram,
+  faYoutube,
+  faHeart,
+  faHome,
+  faMap,
+  faStar,
+  faHandHoldingUsd,
+  faPlaceOfWorship
 );
 function App() {
   return (
@@ -63,11 +79,10 @@ function App() {
         </article>
       </section>
 
-     
-        <CardSwipe />
-      <Info/>
-      <Footer/>
-
+      <CardSwipe />
+      <Info />
+      <Footer />
+      <Menu/>
     </>
   );
 }
