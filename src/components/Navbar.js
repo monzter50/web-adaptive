@@ -11,22 +11,22 @@ const Navbar = () => {
 
       <ul className="navbar__collapse">
         <li className="navbar__item border-r border-white-500">
-          <a className="navbar__link" href="#">
+          <a className="navbar__link" href="#/">
             <FontAwesomeIcon icon="user" />
           </a>
         </li>
         <li className="navbar__item border-r border-white-500">
-          <a className="navbar__link" href="#">
+          <a className="navbar__link" href="#/">
             <FontAwesomeIcon icon="phone" />
           </a>
         </li>
         <li className="navbar__item border-r border-white-500">
-          <a className="navbar__link" href="#">
+          <a className="navbar__link" href="#/">
             <FontAwesomeIcon icon="shopping-cart" />
           </a>
         </li>
         <li className="navbar__item border-r border-white-500">
-          <a className="navbar__link" href="#">
+          <a className="navbar__link" href="#/">
             <FontAwesomeIcon icon="globe" />
           </a>
         </li>

@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import Swiper from "swiper";
 class Slider extends Component {
   componentDidMount() {
-    new Swiper(".swiper-container", {
+    new Swiper(".swiper-head", {
       navigation: {
         nextEl: ".swiper-button-next",
         prevEl: ".swiper-button-prev"
@@ -11,7 +11,7 @@ class Slider extends Component {
   }
   render() {
     return (
-      <div className="swiper-container">
+      <div className="swiper-container swiper-head">
         <div className="swiper-wrapper">
           <div className="swiper-slide">
                 <picture className="object-cover h-48 w-full">
