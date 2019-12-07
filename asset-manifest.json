@@ -5,16 +5,16 @@
     "main.js.map": "/web-adaptive/static/js/main.60d82a23.chunk.js.map",
     "runtime-main.js": "/web-adaptive/static/js/runtime-main.80161e9b.js",
     "runtime-main.js.map": "/web-adaptive/static/js/runtime-main.80161e9b.js.map",
-    "static/js/2.422a5845.chunk.js": "/web-adaptive/static/js/2.422a5845.chunk.js",
-    "static/js/2.422a5845.chunk.js.map": "/web-adaptive/static/js/2.422a5845.chunk.js.map",
+    "static/js/2.599a88f4.chunk.js": "/web-adaptive/static/js/2.599a88f4.chunk.js",
+    "static/js/2.599a88f4.chunk.js.map": "/web-adaptive/static/js/2.599a88f4.chunk.js.map",
     "index.html": "/web-adaptive/index.html",
-    "precache-manifest.d3447a606a6213c761ed3e0586240d91.js": "/web-adaptive/precache-manifest.d3447a606a6213c761ed3e0586240d91.js",
+    "precache-manifest.893cb379b01bcc8981b9b6f218889d0a.js": "/web-adaptive/precache-manifest.893cb379b01bcc8981b9b6f218889d0a.js",
     "service-worker.js": "/web-adaptive/service-worker.js",
     "static/css/main.8448801d.chunk.css.map": "/web-adaptive/static/css/main.8448801d.chunk.css.map"
   },
   "entrypoints": [
     "static/js/runtime-main.80161e9b.js",
-    "static/js/2.422a5845.chunk.js",
+    "static/js/2.599a88f4.chunk.js",
     "static/css/main.8448801d.chunk.css",
     "static/js/main.60d82a23.chunk.js"
   ]
